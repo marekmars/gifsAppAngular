@@ -1,6 +1,7 @@
 # GifsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+You can test this app in this link https://gifsappangular.netlify.app/
 
 ## Development server
 
