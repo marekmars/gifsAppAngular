@@ -1,4 +1,4 @@
-<div class="card mb-2 text-centert bg-dark text-center">
+<div class="card mb-2 text-centert bg-dark text-center" >
   <!-- <img [src]="gif.images.downsized_medium.url" [alt]="gif.title"> -->
   <shared-lazy-image
    [url]="gif.images.downsized_medium.url"
@@ -7,9 +7,10 @@
   <div class="card-body text-light">
     <p
       class="card-text"
-      [ngClass]="{ 'truncate-text': gif.title && gif.title.length > 20 }"
+      class="truncate-text"
+
     >
-      {{ gif.title ? gif.title : "No Title" }}
+    {{ gif.title ? gif.title : "No Title" }}
     </p>
   </div>
 </div>
