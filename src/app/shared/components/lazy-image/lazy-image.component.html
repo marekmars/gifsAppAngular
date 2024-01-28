@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center "[style]="{height: '30vh'}">
+  <img
+    [src]="url"
+    [alt]="alt"
+    class="card-img-top animate__animated animate__fadeIn"
+    (load)="onLoad()"
+    [ngClass]="{ 'd-none': !isLoaded }"
+  />
+  <img *ngIf="!isLoaded" src="assets/loader.svg" alt="" class="card-img-top p-5" style="width: min-content;"/>
+</div>
